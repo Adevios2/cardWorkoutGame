@@ -35,6 +35,7 @@ class RulesVC: UIViewController {
             titleLable.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 60),
             titleLable.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
             titleLable.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)
+            
         ])
     }
     
@@ -65,6 +66,7 @@ class RulesVC: UIViewController {
            exerciselabel.topAnchor.constraint(equalTo: ruleslabel.bottomAnchor, constant: 60),
            exerciselabel.widthAnchor.constraint(equalToConstant: 200),
            exerciselabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+           
         ])
     }
     
@@ -82,6 +84,7 @@ class RulesVC: UIViewController {
             backButton.heightAnchor.constraint(equalToConstant: 50),
             backButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50),
             backButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 50)
+            
         ])
         
     }
